@@ -10,7 +10,7 @@ class DemoButtons extends StatefulWidget {
 }
 
 class _DemoButtonsState extends State<DemoButtons> {
-  bool _isUnderstood = false;
+  var _isUnderstood = false;
 
   @override
   Widget build(BuildContext context) {
